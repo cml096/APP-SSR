@@ -1,4 +1,3 @@
-import Navbar from "../components/Navbar/Navbar";
 import {useEffect, useState} from "react";
 
 interface GalaxyType {
@@ -47,8 +46,7 @@ const Home = () => {
     }, []);
 
     return (
-        <div>
-            <Navbar/>
+        <div className={'container'}>
             <h1>Galaxies</h1>
             {store.loading && <div>Loading...</div>}
             {store.error && <div>Thinks bad happened :(</div>}
