@@ -48,7 +48,7 @@
   "resolved" "https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz"
   "version" "0.4.0"
 
-"axios@^1.4.0":
+"axios@1.4.0":
   "integrity" "sha512-S4XCWMEmzvo64T9GfvQDOXgYRDJ/wsSZc7Jvdgx5u1sd0JwsuPLqb3SYmusag+edF6ziyMensPVqLTSc1PiSEA=="
   "resolved" "https://registry.npmjs.org/axios/-/axios-1.4.0.tgz"
   "version" "1.4.0"

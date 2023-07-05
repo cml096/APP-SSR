@@ -1,6 +1,6 @@
 import {useEffect, useState} from "react";
 import {useRouter} from "next/router";
-import Navbar from "../../components/Navbar/Navbar";
+import Navbar from "@components/Navbar/Navbar";
 
 interface GalaxyType { id: string; img: string; title: string; description: string; created: string; }
 
