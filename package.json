@@ -1,12 +1,13 @@
 {
-  "name": "app-ssr",
+  "name": "next-app",
   "version": "1.0.0",
   "description": "it's coming ...",
   "main": "index.js",
   "scripts": {
-    "dev": "NODE_OPTIONS='--inspect' next",
+    "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "repository": {
     "type": "git",
@@ -21,13 +22,21 @@
   "homepage": "https://github.com/cml096/APP-SSR#readme",
   "dependencies": {
     "axios": "1.4.0",
+    "eslint": "8.44.0",
+    "eslint-config-next": "13.4.9",
+    "eslint-config-prettier": "8.8.0",
+    "isomorphic-unfetch": "^4.0.2",
     "next": "13.4.5",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-infinite-scroll-component": "6.1.0"
   },
   "devDependencies": {
     "@types/node": "20.3.1",
     "@types/react": "18.2.13",
+    "@typescript-eslint/eslint-plugin": "5.61.0",
+    "@typescript-eslint/parser": "5.61.0",
+    "standard": "17.1.0",
     "typescript": "5.1.3"
   }
 }
