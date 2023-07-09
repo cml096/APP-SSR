@@ -4,7 +4,7 @@
   "description": "it's coming ...",
   "main": "index.js",
   "scripts": {
-    "dev": "NODE_OPTIONS='--inspect' next",
+    "dev": "next",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -29,7 +29,7 @@
     "next": "13.4.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-infinite-scroll-component": "^6.1.0"
+    "react-infinite-scroll-component": "6.1.0"
   },
   "devDependencies": {
     "@types/node": "20.3.1",
