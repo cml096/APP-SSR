@@ -1,0 +1,3 @@
+{
+  "extends": ["prettier","./node_modules/standard/eslintrc.json", "next/core-web-vitals"]
+}
